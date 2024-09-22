@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background: #000;
+    border-radius: 0px 8px 8px 0px;
+    width: 0%;
+    z-index: 99;
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fde2e5;
+}
+
+a{
+    color: #000;
+}
+
+header{
+    padding: 30px;
+    background-color: #fde2e5;
+
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+header h1{
+    font-family: "Montserrat";
+    font-size: 22px;
+    line-height: 22px;
+}
+header p{
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    background: #000;
+}
+
+nav a{
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #fde2e5;
+}
+
+
+.inner-skills{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.inner-skills h2{
+    font-family: "Montserrat";
+    font-size: 28px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.heading-skills{
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.inner-skills ul li{
+    font-family: "Poppins";
+
+}
+
+.inner-soft{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Poppins";
+
+}
+
+.inner-project{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+
+.inner-project h2{
+    font-family: "Montserrat";
+    font-size: 28px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inner-project-details p{
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+
+.degrees,.socials,.contact{
+    padding: 50px 30px 0px 30px;
+}
+
+
+.degrees, h2{
+    font-family: "Montserrat";
+    font-size: 28px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.degrees p{
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.socials a{
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-right: 12px;
+}
+
+.socials i{
+    padding-right: 5px;
+    font-size: 14px !important;
+}
+.contact a{
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-right: 12px;
+}
+
+.contact i{
+    padding-right: 5px;
+    font-size: 14px !important;
+}
+
+footer{
+    color: #000;
+    font-family: "Poppins";
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-right: 12px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
